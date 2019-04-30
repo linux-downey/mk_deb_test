@@ -1,0 +1,13 @@
+Source: debhello
+Section: main
+Priority: optional
+Maintainer: downeyboy <linux_downey@sina.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/
+
+Package: debhello
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: debhello package,just for test!
